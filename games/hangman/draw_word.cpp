@@ -1,5 +1,4 @@
 #include <vector>
-
 #include "read_file.hpp"
 
 std::string draw_word() {

@@ -16,20 +16,18 @@
 
 using namespace std;
 
-string secret_word;
-
-map <char, bool> chars_guessed;
-vector <char> incorrect_guesses;
+static string secret_word;
+static map <char, bool> chars_guessed;
+static vector <char> incorrect_guesses;
 
 int main() {
-
    banner();
    secret_word = draw_word();
 
    while (non_hit(secret_word, chars_guessed) && incorrect_guesses.size() < 5) {
       
       print_word(secret_word, chars_guessed);
-      print_errors(incorrect_guesses);
+      hangman::print_errors(incorrect_guesses);
       make_guess(chars_guessed, incorrect_guesses);
    }
 
