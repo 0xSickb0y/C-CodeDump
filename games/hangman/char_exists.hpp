@@ -1,0 +1,1 @@
+bool char_exists(char guess);
