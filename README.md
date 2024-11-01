@@ -1,7 +1,7 @@
 # C++ CodeDump
 Personal repository dedicated to organizing C++ source code, experiments, and cheat sheets. 
 
-Also featuring Also featuring [mini-games](https://github.com/0xSickb0y/CPPCodeDump/tree/main/games)!
+Also featuring [mini-games](https://github.com/0xSickb0y/CPPCodeDump/tree/main/games)!
 
 ### Structure of a C++ Program
 ```cpp
